@@ -18,8 +18,6 @@ export interface PexelsApiResponse {
   per_page: number;
   photos: PexelsPhoto[];
   total_results: number;
-  next_page?: string;
-  prev_page?: string;
 }
 
 export interface Photo {
